@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1360">
+    <!-- 브라우저 뷰포트 너비를 1360px로 고정하여 페이지를 그리도록 설정 -->
+    <title>유바 피부과의원</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <!-- webfont 연결-->
+    <!-- font-family: 'Pretendard Variable';-->
+    <link rel="stylesheet" as="style" crossorigin
+        href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css" />
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- css 연결-->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div id="wrap">
+        <!-- header S -->
+        <div id="header">
+            <div class="inner_header">
+                <h1>
+                    <a href="#">
+                        <img src="./images/logo.svg" alt="로고">
+                    </a>
+                </h1>
+                <ul class="gnb">
+                    <li>
+                        <a href="#section1">About’ Yuva</a>
+                    </li>
+                    <li>
+                        <a href="#section2">Signature</a>
+                    </li>
+                    <li>
+                        <a href="#section3">Director</a>
+                    </li>
+                    <li>
+                        <a href="#section7">Promotion</a>
+                    </li>
+                    <li>
+                        <a href="#section8">Directions</a>
+                    </li>
+                </ul><!-- .gnb -->
+                <ul class="util">
+                    <li><a href="#">Login</a></li>
+                    <!-- ::after : 가상선택자 -->
+                    <li><a href="#">Join </a></li>
+                </ul>
+            </div><!-- .inner_header -->
+        </div><!-- #header -->
+        <!-- header E -->
+
+        <!-- visual S -->
+        <div id="visual">
+            <!-- Swiper -->
+            <div class="swiper visualSwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="./images/main_banner_01.png" alt="배너">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./images/main_banner_02.png" alt="배너">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./images/main_banner_03.png" alt="배너">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./images/main_banner_04.png" alt="배너">
+                    </div>
+                </div>
+            </div>
+        </div><!-- #visual -->
+        <!-- visual E -->
+
+        <!-- section1_About’ Yuva S-->
+        <div id="section1">
+            <div class="about1" data-aos="fade-up"  data-aos-duration="2000">
+                <h2 >About Yuva CIinic </h2>
+                <p class="slogan">예술은 보이는 것을 그리는 것이 아니라, 보이게 하는 것이다.</p>
+                <p class="slogan_en">Art does not reproduce the visible; rather, it makes visible.</p>
+                <h3>By. 폴 클레 (Paul Klee)</h3>
+            </div><!-- .about1 -->
+            <div class="about2">
+                <div class="about_text"  data-aos="fade-right"             data-aos-delay="400"
+                data-aos-duration="2000" >
+                    <h3>외적인 아름다움뿐만 아니라,내면에서 피어나는 균형을 만듭니다.</h3>
+                    <h3>Inner Confidence</h3>
+                    <p>본래의 나를 찾아가는 그 여정 속에서,
+                        <br>
+                        유바는 10년 후의 피부를 고민하며 당신의 시간을 함께합니다.
+                    </p>
+                </div><!-- .about_text -->
+                <div class="about_img" data-aos="fade-left"                 data-aos-delay="800"  data-aos-duration="2000" >
+                    <img src="./images/about_img.png" alt="about_bg">
+                </div>
+            </div><!-- .about2 -->
+        </div>
+        <!-- section1_About’ Yuva E-->
+
+        <!-- section2_Signature S-->
+        <div id="section2">
+            <h2 data-aos="fade-down" data-aos-duration="2000">Signature</h2>
+            <ul class="signature" data-aos="fade-up"  data-aos-duration="2000">
+                <li><!-- 1 -->
+                    <div class="signature_img">
+                        <!-- .cover 기준 -->
+                        <img src="./images/signature_bg01.png" alt="signature_bg01">
+                        <!-- position / 흰 배경 -->
+                        <div class="cover">
+                            <div>
+                                <p class="signature_title">맑게 지워내다</p>
+                                <p class="signature_text">
+                                    색소는 종류와 깊이가
+                                    정확한 진단과 맞춤 치료가 핵심입니다.
+                                    <br>
+                                    불필요한 자극은 줄이고,필요한 만큼만
+                                    정확히 밝히는 치료를 지향합니다.
+                                </p>
+                            </div>
+                        </div><!-- .cover -->
+                    </div><!-- .signature_img -->
+                    <h3>기미/잡티/흑자</h3>
+                </li>
+
+                <li><!-- 2 -->
+                    <div class="signature_img">
+                        <!-- .cover 기준 -->
+                        <img src="./images/signature_bg02.png" alt="signature_bg02">
+                        <!-- position / 흰 배경 -->
+                        <div class="cover">
+                            <div>
+                                <p class="signature_title">자연스럽게 차오르다</p>
+                                <p class="signature_text">
+                                    건강한 피부의 중심은
+                                    결국 스스로 살아 움직이는 콜라겐입니다.
+                                    <br>
+                                    본래의 콜라겐이 재생성될 수 있도록,
+                                    피부재생에 필요한 재료들을 채워드립니다.
+                                </p>
+                            </div>
+                        </div><!-- .cover -->
+                    </div><!-- .signature_img -->
+                    <h3>탄력/리프팅/볼륨</h3>
+                </li>
+
+                <li><!-- 3 -->
+                    <div class="signature_img">
+                        <!-- .cover 기준 -->
+                        <img src="./images/signature_bg03.png" alt="signature_bg03">
+                        <!-- position / 흰 배경 -->
+                        <div class="cover">
+                            <div>
+                                <p class="signature_title">부드럽게 달래다</p>
+                                <p class="signature_text">
+                                    여드름 치료의 핵심은
+                                    염증을 빠르게 억제하고,
+                                    원인을 정확히 파악해 맞춤 치료로 자국과 흉터를 최소화하는 것입니다.
+                                    <br>
+                                    여드름 자국은 치료와 동시에 혹은 직후
+                                    바로 관리할수록 흉터로 남을 가능성을
+                                    크게 줄일 수 있습니다.
+                                </p>
+                            </div>
+                        </div><!-- .cover -->
+                    </div><!-- .signature_img -->
+                    <h3>여드름/붉은 자국/홍조</h3>
+                </li>
+
+                <li><!-- 4 -->
+                    <div class="signature_img">
+                        <!-- .cover 기준 -->
+                        <img src="./images/signature_bg04.png" alt="signature_bg04">
+                        <!-- position / 흰 배경 -->
+                        <div class="cover">
+                            <div>
+                                <p class="signature_title">결을 고르게 하다</p>
+                                <p class="signature_text">
+                                    흉터 치료의 핵심은
+                                    흉터 종류를 정확히 파악하고, 여러 치료법을 조합해 유착을 하나씩 풀어내며 새살을 끌어올리는 것입니다.
+                                    <br>
+                                    이를 통해 모공과 피부결을 자연스럽고
+                                    매끄럽게 다듬을 수 있습니다.
+                                </p>
+                            </div>
+                        </div><!-- .cover -->
+                    </div><!-- .signature_img -->
+                    <h3>모공/흉터/피부결</h3>
+                </li>
+
+                <li><!-- 5 -->
+                    <div class="signature_img">
+                        <!-- .cover 기준 -->
+                        <img src="./images/signature_bg05.png" alt="signature_bg05">
+                        <!-- position / 흰 배경 -->
+                        <div class="cover">
+                            <div>
+                                <p class="signature_title">편안하게 하다</p>
+                                <p class="signature_text">
+                                    신체의 내부와 외부적인 문제로 인해 생긴 피부질환은 가려움과 건조함, 통증 등 생활하는 데 있어, 많은 불편함을 유발합니다.
+                                    <br>
+                                    유바 피부과는 정확한 진단과 원인 파악, 생활 습관 개선을 통해
+                                    피부가 건강하고 편안하게 회복되도록 돕습니다.
+                                </p>
+                            </div>
+                        </div><!-- .cover -->
+                    </div><!-- .signature_img -->
+                    <h3>피부 질환</h3>
+                </li>
+            </ul><!-- .signature -->
+        </div>
+        <!-- section2_Signature E -->
+
+        <!-- section3_Director S -->
+        <div id="section3">
+            <h2 data-aos="fade-down" data-aos-duration="2000">Director</h2>
+            <div class="profile">
+                <div class="profile_text" data-aos="fade-right"                 data-aos-delay="400"  data-aos-duration="2000" >
+                    <h3 class="title">Dermatologist</h3>
+                    <h3 class="name">강이훤</h3>
+                    <span>피부과 전문의 Dermatologist</span>
+                    <p>
+                        피부를 단순한 외적 문제로 보지 않고,
+                        <br>
+                        인체 전반의 균형 속에서 바라보는
+                        <br>
+                        통합적 진료를 지향합니다.
+                        <br><br>
+                        깊이 있는 의학적 이해와 임상 경험을
+                        <br>
+                        바탕으로 개인의 피부 상태에 최적화된
+                        <br>
+                        해법을 제시하여, 건강한 아름다움이
+                        <br>
+                        자연스럽게 드러나는 진료를 실천합니다.
+                    </p>
+                </div><!-- .profile_text -->
+                <div class="profile_img" data-aos="fade-left"                 data-aos-delay="800"  data-aos-duration="2000" >
+                    <img src="./images/director_profile.png" alt="의사 프로필 사진">
+                </div><!-- .profile_img -->
+            </div><!-- .profile -->
+        </div>
+        <!-- section3_Director E -->
+
+        <!-- section4_Interior design S -->
+        <div id="section4">
+            <h2 data-aos="fade-right" data-aos-duration="2000">Interior design</h2>
+            <div id="slide" class="swiper-container" data-aos="fade-up"  data-aos-duration="3000">
+                <div class="swiper-wrapper movement-wrapper">
+                    <!-- 각 슬라이드 반복 -->
+                    <ul class="swiper-slide movement">
+                        <li>
+                            <a href="#">
+                                <div class="screen">
+                                    <img src="./images/interior_01.png" alt="interior">
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="swiper-slide movement">
+                        <li>
+                            <a href="#">
+                                <div class="screen">
+                                    <img src="./images/interior_02.png" alt="interior">
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="swiper-slide movement">
+                        <li>
+                            <a href="#">
+                                <div class="screen">
+                                    <img src="./images/interior_03.png" alt="interior">
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="swiper-slide movement">
+                        <li>
+                            <a href="#">
+                                <div class="screen">
+                                    <img src="./images/interior_04.png" alt="interior">
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="swiper-slide movement">
+                        <li>
+                            <a href="#">
+                                <div class="screen">
+                                    <img src="./images/interior_05.png" alt="interior">
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="swiper-slide movement">
+                        <li>
+                            <a href="#">
+                                <div class="screen">
+                                    <img src="./images/interior_01.png" alt="interior">
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="swiper-slide movement">
+                        <li>
+                            <a href="#">
+                                <div class="screen">
+                                    <img src="./images/interior_02.png" alt="interior">
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="swiper-slide movement">
+                        <li>
+                            <a href="#">
+                                <div class="screen">
+                                    <img src="./images/interior_03.png" alt="interior">
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="swiper-slide movement">
+                        <li>
+                            <a href="#">
+                                <div class="screen">
+                                    <img src="./images/interior_04.png" alt="interior">
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="swiper-slide movement">
+                        <li>
+                            <a href="#">
+                                <div class="screen">
+                                    <img src="./images/interior_05.png" alt="interior">
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div><!-- .swiper-wrapper -->
+            </div><!-- #slide .swiper-container -->
+        </div>
+        <!-- section4_Interior design E -->
+
+        <!-- setion5_Equipment S -->
+        <div id="section5">
+            <h2 data-aos="fade-right" data-aos-duration="2000">Equipment</h2>
+            <div class="equipment" data-aos="fade-up" data-aos-duration="2000">
+                <div class="swiper equipmentSwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="images/equipment_01.png" alt="레이저장비">
+                            <h3>QX-MAX</h3>
+                            <p>
+                                모든 타입의 색소에 적용 가능한
+                                <br>
+                                저출력 듀얼 파장 레이저
+                            </p>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="images/equipment_02.png" alt="레이저장비">
+                            <h3>피코웨이</h3>
+                            <p>
+                                3가지 파장으로
+                                <br>
+                                표피층 잡티부터 진피층 기미까지
+                            </p>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="images/equipment_03.png" alt="레이저장비">
+                            <h3>울쎄라</h3>
+                            <p>
+                                보이는 초음파 리프팅
+                                <br>
+                                근막층부터 강력하게
+                            </p>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="images/equipment_04.png" alt="레이저장비">
+                            <h3>써마지 FLX</h3>
+                            <p>
+                                통증 컨트롤 시스템
+                                <br>
+                                고주파 타이트닝
+                            </p>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="images/equipment_05.png" alt="레이저장비">
+                            <h3>튠페이스</h3>
+                            <p>
+                                고주파와 초음파가
+                                <br>
+                                더해진 리프팅
+                            </p>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="images/equipment_06.png" alt="레이저장비">
+                            <h3>레블라이트 SI</h3>
+                            <p>
+                                더욱 스마트해지고
+                                <br>
+                                정교해진 색소 레이저
+                            </p>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="images/equipment_07.png" alt="레이저장비">
+                            <h3>스타워커</h3>
+                            <p>
+                                기미/잡티부터 난치성 색소까지
+                                <br>
+                                치료하는 색소 레이저
+                            </p>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="images/equipment_08.png" alt="레이저장비">
+                            <h3>레드터치프로</h3>
+                            <p>
+                                콜라겐 부스터 레이저,
+                                <br>
+                                색소와 탄력을 함께 개선
+                            </p>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="images/equipment_09.png" alt="레이저장비">
+                            <h3>젠틀맥스 프로</h3>
+                            <p>
+                                롱펄스 레이저의 리더,
+                                <br>
+                                복잡한 피부 색소고민
+                            </p>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="images/equipment_10.png" alt="레이저장비">
+                            <h3>브이빔퍼펙타</h3>
+                            <p>
+                                30년 이상의 역사,
+                                <br>
+                                혈관치료의 골드 스탠다드
+                            </p>
+                        </div>
+                    </div>
+                </div><!-- .swiper .equipmentSwiper -->
+                <div class="equipment_btn_next"></div>
+                <div class="equipment_btn_prev"></div>
+            </div><!-- .equipment -->
+        </div>
+        <!-- setion5_Equipment E -->
+
+        <!-- section6_Column S -->
+        <div id="section6">
+            <h2 data-aos="fade-down" data-aos-duration="2000">Column</h2>
+            <div class="column" data-aos="fade-up" data-aos-duration="2000">
+                <!-- Swiper -->
+                <div class="swiper columnSwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><a href="#"><img src="images/column_01.png" alt="유튜브 썸네일"></a></div>
+                        <div class="swiper-slide"><a href="#"><img src="images/column_02.png" alt="유튜브 썸네일"></a></div>
+                        <div class="swiper-slide"><a href="#"><img src="images/column_03.png" alt="유튜브 썸네일"></a></div>
+                        <div class="swiper-slide"><a href="#"><img src="images/column_01.png" alt="유튜브 썸네일"></a></div>
+                        <div class="swiper-slide"><a href="#"><img src="images/column_02.png" alt="유튜브 썸네일"></a></div>
+                        <div class="swiper-slide"><a href="#"><img src="images/column_03.png" alt="유튜브 썸네일"></a></div>
+                    </div>
+                </div>
+                <div class="column_btn_next"></div>
+                <div class="column_btn_prev"></div>
+            </div>
+        </div>
+        <!-- section6_Column E -->
+
+        <!-- section7_Event S -->
+        <div id="section7">
+            <h2 data-aos="fade-right" data-aos-duration="2000">Event</h2>
+            <div class="event" data-aos="fade-up" data-aos-duration="2000">
+                <div class="swiper eventSwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <a href="#">
+                                <div class="event_cover">
+                                    <img src="images/event_01.png" alt="이벤트배너">
+                                </div>
+                                <p>
+                                    2025 November Event💚
+                                </p>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#">
+                                <div class="event_cover">
+                                    <img src="images/event_02.png" alt="이벤트배너">
+                                </div>
+                                <p>
+                                    2025 October Event💚
+                                </p>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#">
+                                <div class="event_cover">
+                                    <img src="images/event_03.png" alt="이벤트배너">
+                                </div>
+                                <p>
+                                    2025 September Event💚
+                                </p>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#">
+                                <div class="event_cover">
+                                    <img src="images/event_04.png" alt="이벤트배너">
+                                </div>
+                                <p>
+                                    2025 June Event💚
+                                </p>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#">
+                                <div class="event_cover">
+                                    <img src="images/event_01.png" alt="이벤트배너">
+                                </div>
+                                <p>
+                                    2025 November Event💚
+                                </p>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#">
+                                <div class="event_cover">
+                                    <img src="images/event_02.png" alt="이벤트배너">
+                                </div>
+                                <p>
+                                    2025 October Event💚
+                                </p>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#">
+                                <div class="event_cover">
+                                    <img src="images/event_03.png" alt="이벤트배너">
+                                </div>
+                                <p>
+                                    2025 September Event💚
+                                </p>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#">
+                                <div class="event_cover">
+                                    <img src="images/event_04.png" alt="이벤트배너">
+                                </div>
+                                <p>
+                                    2025 June Event💚
+                                </p>
+                            </a>
+                        </div>
+                    </div>
+                </div><!-- .swiper .eventSwiper -->
+                <div class="event_btn_next"></div>
+                <div class="event_btn_prev"></div>
+            </div><!-- .event -->
+        </div>
+        <!-- section7_Event E -->
+
+        <!-- seciont8_Directions S -->
+        <div id="section8">
+            <h2 data-aos="fade-down" data-aos-duration="2000">Directions</h2>
+            <div class="directions">
+                <div class="location_map" data-aos="fade-right" data-aos-duration="2000" data-aos-delay="400">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3261.504492273384!2d129.13346081191256!3d35.168976572643246!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x356892bf02a5dfe1%3A0xb36570e65bbad549!2z67Kh7Iqk7L2U!5e0!3m2!1sko!2skr!4v1764433175795!5m2!1sko!2skr"
+                        width="650" height="372" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="location_text" data-aos="fade-left" data-aos-duration="2000" data-aos-delay="800">
+                    <div class="contact">
+                        <h3>Contact</h3>
+                        <h3>051-715-2272</h3>
+                    </div><!-- .contact -->
+                    <div class="location">
+                        <h3>Location</h3>
+                        <p>부산광역시 해운대구 우동 23로, U tower 10층</p>
+                    </div><!-- .location -->
+                    <div class="hour">
+                        <h3>Hours</h3>
+                        <ul>
+                            <li>
+                                <p>월 수 금</p>
+                                <p>am 10:00-pm7:00</p>
+                            </li>
+                            <li>
+                                <p>화 / 목</p>
+                                <p>am 10:00-pm8:00 (야간진료)</p>
+                            </li>
+                            <li>
+                                <p>토 요 일</p>
+                                <p>am 10:00-pm2:00 (점심시간 없음)</p>
+                            </li>
+                            <li>
+                                <p>점심시간</p>
+                                <p>pm 1:00-pm2:30</p>
+                            </li>
+                        </ul>
+                    </div><!-- .hour -->
+                    <div class="map">
+                        <a href="#" class="naver_map">네이버 길찾기</a>
+                        <a href="#" class="kakao_map">카카오맵 길찾기</a>
+                    </div><!-- .map -->
+                </div><!-- .location_text -->
+            </div><!-- .directions -->
+        </div>
+        <!-- seciont8_Directions E -->
+
+        <!-- footer S -->
+        <div id="footer">
+            <div class="inner_footer">
+                <ul class="sns">
+                    <li>
+                        <a href="#">
+                            <img src="./images/sns_01.png" alt="네이버 플레이스">
+                            네이버 플레이스
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./images/sns_01.png" alt="카카오톡">
+                            카카오톡
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./images/sns_01.png" alt="인스타그램">
+                            인스타그램
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./images/sns_01.png" alt="유튜브">
+                            유튜브
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./images/sns_01.png" alt="네이버 블로그">
+                            네이버 블로그
+                        </a>
+                    </li>
+                </ul><!-- .sns -->
+                <div class="footer_list">
+                    <h1>
+                        <a href="#">
+                            <img src="./images/logo2.svg" alt="footer logo">
+                        </a>
+                    </h1>
+                    <div class="copyright">
+                        <p>상호명 : 유바피부과 &nbsp; &nbsp; &nbsp;대표자명 : 강이훤 &nbsp; &nbsp; &nbsp;주소 : 부산광역시 해운대구 우동 U tower 10층
+                            &nbsp; &nbsp; &nbsp;사업자번호 : 715-15-2272 &nbsp; &nbsp; &nbsp;전화번호 : 051-715-2272 &nbsp;
+                            &nbsp; &nbsp;팩스번호 : 051-715-2273</p>
+                        <p>COPYRIGHT 2025 YUVA dermatology. ALL RIGHTS RESERVED</p>
+                    </div>
+                </div>
+            </div><!-- .inner_footer -->
+        </div>
+        <!-- footer E -->
+
+        <div class="aside">
+            <button>
+                <img src="./images/btn_left.svg" alt="top 버튼">
+            </button>
+        </div>
+    </div>
+
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- jQuery 오픈소스 -->
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <!-- js 제어구문 연결 -->
+    <script src="js/script.js"></script>
+    <!-- AOS 오픈소스 -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- AOS 제어구문 -->
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
