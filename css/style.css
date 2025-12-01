@@ -538,7 +538,7 @@ h3 {
     height: 100%;
 }
 
-#section6 .swiper-slide {
+#section6 .columnSwiper .swiper-slide {
     width: 727px;
     /* 슬라이드 너비 지정 (auto 설정 시 필요) */
     background: #eee;

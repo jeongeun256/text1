@@ -90,20 +90,19 @@ var swiper = new Swiper(".columnSwiper", {
     },
     // 슬라이드 변경 시 이벤트
     on: {
-        slideChangeTransitionEnd: function () {
+        slideChangeTransitionStart: function () {
             // 모든 슬라이드 반투명 처리
-            this.slides.css('opacity', '0.6');
-
-            // 현재 활성 슬라이드만 불투명 처리
-            // this.slides[this.activeIndex]는 현재 활성화된 DOM 요소를 가리킵니다.
+            this.slides.forEach(slide => slide.style.opacity = '0.6');
+            // 현재 활성 슬라이드 불투명 처리
             this.slides[this.activeIndex].style.opacity = '1';
         },
         init: function () {
-            // 초기 로드 시 활성 슬라이드 불투명 처리
+            this.slides.forEach(slide => slide.style.opacity = '0.6');
             this.slides[this.activeIndex].style.opacity = '1';
         }
     }
 });
+
 //#setion7 Event slide 시작
 var swiper = new Swiper(".eventSwiper", {
     slidesPerView: 4,
