@@ -574,7 +574,7 @@ h3 {
 #section6 .swiper-rtl .column_btn_next {
     position: absolute;
     top: 50%;
-    left: var(--swiper-navigation-sides-offset, 400px);
+    left: clamp(40px, 20vw, 400px);
     z-index: 88;
 }
 
@@ -582,7 +582,7 @@ h3 {
 #section6 .swiper-rtl .column_btn_prev {
     position: absolute;
     top: 50%;
-    right: var(--swiper-navigation-sides-offset, 400px);
+    right: clamp(40px, 20vw, 400px);
     z-index: 88;
 }
 
